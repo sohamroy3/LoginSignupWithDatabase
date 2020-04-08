@@ -1,0 +1,19 @@
+var users={
+    admin:"admin",
+    sebastian:"password",
+    debosmita:{
+        password:"qwerty",
+        email:"bnkjkj@bjb.com",
+        mobno:"3434335346"
+    }
+};
+console.log(users.admin);
+console.log(users.sebastian);
+console.log(users.soham);
+users.soham={
+    password:"hgfjf",
+    email:"dfsh@bjb.com",
+    mobno:"877567"
+};
+console.log(users.soham);
+console.log(users.debosmita);
